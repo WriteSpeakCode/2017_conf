@@ -8,6 +8,11 @@ Add your custom styles in this file instead of style.css so it
 is easier to update the theme. Simply copy an existing style 
 from style.css to this file, and modify it to your liking. */
 
+/* Hide an element */
+.hidden {
+	display: none;
+}
+
 
 /* ASSIGN CUSTOM PRIMARY FONT */
 
@@ -30,7 +35,8 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 	border-top-color: #1DB6AD;
 }
 body.home:after {
-	background: rgba(29,182,173,0.7);
+	/*background: rgba(29,182,173,0.7);*/
+	background: #272e41;
 }
 
 /* 	ASSIGN CUSTOM SECONDARY HIGHLIGHT COLOR */

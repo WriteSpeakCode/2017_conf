@@ -68,9 +68,9 @@ $(window).resize(function() {
 if (jQuery.isFunction(jQuery.fn.countDown)) {
 $('#qcCountdown').countDown({
 	targetDate: {
-		'day': 		31,
-		'month': 	12,
-		'year': 	2016,
+		'day': 		23,
+		'month': 	08,
+		'year': 	2017,
 		'hour': 	0,
 		'min': 		0,
 		'sec': 		0
